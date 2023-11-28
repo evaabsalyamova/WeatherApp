@@ -14,9 +14,12 @@
 }
 
 .locationInfoBlock {
+  display: flex;
+  flex-direction: column;
   height: 150px;
   width: 400px;
   border: 1px solid white;
   border-radius: 30px;
   margin-top: 20px;
+  align-items: center;
 }
