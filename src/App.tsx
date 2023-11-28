@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import SelectLocation from "./SelectLocation";
+import LocalTime from "./LocalTime";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="container">
         <div className="locationInfoBlock">
           <SelectLocation />
+          <LocalTime />
         </div>
       </div>
     </div>
