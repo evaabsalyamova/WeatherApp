@@ -9,6 +9,9 @@ const SelectLocation = () => {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
+    if (city === "") {
+      return;
+    }
     const response = getWeather(city);
     response.then((data) =>
       dispatch(
