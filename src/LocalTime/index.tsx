@@ -1,7 +1,10 @@
+import { useAppSelector } from "../redux";
 import "./styles.css";
 
 const LocalTime = () => {
-  return <div className="localTime">111</div>;
+  const localTime = useAppSelector((state) => state.Weather.localTime);
+
+  return <div className="localTime">{localTime}</div>;
 };
 
 export default LocalTime;
