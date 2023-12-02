@@ -3,6 +3,7 @@ export interface IWeather {
   temp: number;
   localTime: string;
   icon: string;
+  feelsLike: number;
 }
 
 interface ILocation {
@@ -17,6 +18,7 @@ interface ICondition {
 interface ICurrent {
   temp_c: number;
   condition: ICondition;
+  feelslike_c: number;
 }
 
 export interface IExternalWeather {

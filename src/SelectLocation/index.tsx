@@ -17,9 +17,10 @@ const SelectLocation = () => {
       dispatch(
         addWeather({
           city: data.location.name,
-          temp: data.current.temp_c,
+          temp: Math.floor(data.current.temp_c),
           localTime: data.location.localtime,
           icon: data.current.condition.icon,
+          feelsLike: Math.floor(data.current.feelslike_c),
         })
       )
     );
