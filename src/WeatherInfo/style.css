@@ -12,5 +12,16 @@
    font-weight: bold;
    color: aliceblue;
    margin-top: 20px;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
+}
+
+.feelsLikeBlock {
+   font-size: 180%;
+   font-weight: bold;
+   color: aliceblue;
+}
+
+.weatherIconBlock {
+   width: 100px;
+   margin-top: 20px;
 }
