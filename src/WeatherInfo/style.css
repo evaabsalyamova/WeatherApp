@@ -1,0 +1,16 @@
+.weatherBlock {
+   width: 350px;
+   height: 350px;
+   border: 1px solid white;
+   margin-top: 10px;
+   margin-left: 70px;
+   background-color: #87CEFA;
+}
+
+.tempBlock {
+   font-size: 220%;
+   font-weight: bold;
+   color: aliceblue;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}

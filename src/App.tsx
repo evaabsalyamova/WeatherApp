@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import SelectLocation from "./SelectLocation";
 import LocalTime from "./LocalTime";
+import WeatherInfo from "./WeatherInfo";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         <div className="locationInfoBlock">
           <SelectLocation />
           <LocalTime />
+        </div>
+        <div className="weatherInfoBlock">
+          <WeatherInfo />
         </div>
       </div>
     </div>
