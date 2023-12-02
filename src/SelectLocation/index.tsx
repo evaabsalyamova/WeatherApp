@@ -19,6 +19,7 @@ const SelectLocation = () => {
           city: data.location.name,
           temp: data.current.temp_c,
           localTime: data.location.localtime,
+          icon: data.current.condition.icon,
         })
       )
     );
@@ -33,6 +34,7 @@ const SelectLocation = () => {
       <option value=""></option>
       <option value="Yerevan">Yerevan</option>
       <option value="London">London</option>
+      <option value="Khabarovsk">Khabarovsk</option>
     </select>
   );
 };

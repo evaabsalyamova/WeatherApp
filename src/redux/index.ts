@@ -11,6 +11,7 @@ const initialState: IWeather = {
   city: "",
   temp: 0,
   localTime: "",
+  icon: "",
 };
 
 const weatherSlice = createSlice({
