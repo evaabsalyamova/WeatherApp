@@ -3,6 +3,7 @@ import "./App.css";
 import SelectLocation from "./SelectLocation";
 import LocalTime from "./LocalTime";
 import WeatherInfo from "./WeatherInfo";
+import ForecastInfo from "./ForecastInfo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </div>
         <div className="weatherInfoBlock">
           <WeatherInfo />
+          <ForecastInfo />
         </div>
       </div>
     </div>
