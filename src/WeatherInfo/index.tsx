@@ -4,6 +4,10 @@ import "./style.css";
 const WeatherInfo = () => {
   const { temp, icon, feelsLike } = useAppSelector((state) => state.Weather);
 
+  if (!temp) {
+    return null;
+  }
+
   return (
     <div className="weatherBlock">
       {icon && (
