@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./styles.css";
-import { getWeather } from "../api/weather";
+import { getForecast } from "../api/weather";
 import { addWeather, useAppDispatch } from "../redux";
 
 const SelectLocation = () => {
@@ -12,7 +12,7 @@ const SelectLocation = () => {
     if (city === "") {
       return;
     }
-    const response = getWeather(city);
+    const response = getForecast(city);
     response.then((data) =>
       dispatch(
         addWeather({
