@@ -4,6 +4,7 @@ export interface IWeather {
   localTime: string;
   icon: string;
   feelsLike: number;
+  forecast: IForecastDay[];
 }
 
 interface ILocation {
@@ -26,7 +27,7 @@ interface IDay {
   condition: ICondition;
 }
 
-interface IForecastDay {
+export interface IForecastDay {
   date: string;
   day: IDay;
 }
