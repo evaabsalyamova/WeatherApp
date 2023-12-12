@@ -10,7 +10,7 @@
   width: 100%;
   border: 1px solid white;
   border-radius: 80px;
-  background-color: #87CEFA;
+  background-color: #A2D4FB;
   margin-top: 36px;
 }
 
@@ -19,7 +19,6 @@
   flex-direction: column;
   height: 150px;
   width: 400px;
-  border: 1px solid white;
   border-radius: 30px;
   margin-top: 20px;
   align-items: center;
@@ -33,5 +32,5 @@
   border: 1px solid white;
   border-radius: 80px;
   margin-top: 5px;
-  background-color: #87CEFA;
+  background-color: #A2D4FB;
 }

@@ -1,8 +1,11 @@
 .forecastBlock {
-   width: 550px;
+   width: 650px;
    height: 350px;
    border: 1px solid white;
-   background-color: #87CEFA;
+   border-radius: 50px;
+   background-color: #AFDAFC;
    margin-top: 10px;
    margin-right: 100px;
+   display: flex;
+   gap: 60px
 }
