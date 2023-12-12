@@ -21,6 +21,7 @@ const SelectLocation = () => {
           localTime: data.location.localtime,
           icon: data.current.condition.icon,
           feelsLike: Math.floor(data.current.feelslike_c),
+          forecast: data.forecast.forecastday,
         })
       )
     );

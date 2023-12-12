@@ -1,0 +1,23 @@
+.forecastDayBlock {
+   margin-top: 30px;
+   margin-left: 10px;
+}
+
+.forecastDate {
+   font-size: 180%;
+   font-weight: bold;
+   color: aliceblue;
+   margin-top: 20px;
+
+}
+
+.forecastIcon {
+   width: 100px;
+}
+
+.forecastTemp {
+   font-size: 180%;
+   font-weight: bold;
+   color: aliceblue;
+   margin-top: 10px;
+}
